@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<title>Registration Form</title>
+</head>
+<body>
+<center>
+<h1>Jee Main Registration Form</h1>
+<form action="registration" onsubmit="" method="post">
+Name<input type="text" placeholder="First Name" name="name" id="user">&nbsp&nbsp<input type="text" placeholder="Middle Name" name="middlename" id="middlename">&nbsp&nbsp<input type="text" placeholder="Last Name" name="lastname" id="lastname"><br/>
+DateofBirth<input type="date" value="01-01-01" name="dob" id="dob" min="01-01-03" max="01-01-99" ><br/>
+
+Fathers Name<input type="text" name="fname" id="fname"><br/>
+
+Mothers Name<input type="text" name="mname" id="mname"><br/>
+Sex<br/>
+Female<input type="radio" name="gender" id="male" value="Female"><br/>
+ Male   <input type="radio" name="gender" id="female" value="Male"><br/>
+Other  <input type="radio" name="gender" id="other" value="Other"><br/>
+Applying for<br/>
+Jee Main<input type="checkbox" name="apply" id="" value="JeeMain"><br/>
+Jee Advanced<input type="checkbox" name="apply" id="" value="JeeAdv"><br/>
+School Name<input type="text" name="school" id="school" ><br/>
+Address:<input type="textarea" name="address" id="address"><br/>
+City/Town/Village<input type="text" name="city" id="city">
+
+<label for="">State:</label>
+
+<select name="state" id="state">
+    <option value="WestBengal">--Please choose an option--</option>
+    <option value="WestBengal">West Bengal</option>
+    <option value="Telegana">Telangana</option>
+    <option value="Manipur">Manipur</option>
+    <option value="Goa">Goa</option>
+    <option value="Mizoram">Mizoram</option>
+    <option value="Assam">Assam</option>
+</select><br/>
+pincode<input type="number" name="pincode" id="pincode"><br/>
+<input type="submit" value="SignUp" />
+</form>
+</center>
+</body>
+</html>
